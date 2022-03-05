@@ -3,6 +3,10 @@ Website on Covid 19
 
 ## Screenshots
 
+https://user-images.githubusercontent.com/54703731/156891109-2dc91724-0216-48b3-8179-f2076290e23b.mp4
+
+
+
 <p align="center">
   <img  src="/screenshots/Screenshot (87).png" alt="Covid 19 Website">
 </p>
