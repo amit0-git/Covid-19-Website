@@ -1,0 +1,84 @@
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  font-family: "Shippori Antique B1";
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.navigation {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.poster {
+  position: relative;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#head {
+  position: absolute;
+  font-size: 50px;
+  left: 40px;
+  color: white;
+  font-weight: bolder;
+}
+
+.video-container {
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: linear-gradient(
+    to right top,
+    #f41677,
+    #ff4e47,
+    #ff8900,
+    #e3bd00,
+    #a8eb12
+  );
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-around;
+}
+#gal-head {
+  font-size: 50px;
+  font-weight: bold;
+}
+.photos > img {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-around;
+  }
+  .photos > img {
+    margin-bottom: 20px;
+    margin: 10px;
+    width: 160px;
+    height: 40px;
+  }
+}
